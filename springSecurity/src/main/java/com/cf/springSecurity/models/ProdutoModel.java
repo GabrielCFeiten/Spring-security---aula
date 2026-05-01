@@ -3,7 +3,7 @@ package com.cf.springSecurity.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table("TB_PRODUTO")
+@Table(name = "TB_PRODUTO")
 public class ProdutoModel {
 
     @Id
